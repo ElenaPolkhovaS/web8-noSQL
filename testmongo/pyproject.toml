@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "testmongo"
+version = "0.1.0"
+description = ""
+authors = ["ElenaPolkhovaS <148061037+ElenaPolkhovaS@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.6.2"
+mongoengine = "^0.28.2"
+redis = "^5.0.3"
+redis-lru = "^0.1.2"
+pika = "^1.3.2"
+faker = "^24.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
